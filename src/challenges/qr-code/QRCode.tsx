@@ -1,4 +1,4 @@
-import styles from '@/styles/QRCode.module.css'
+import styles from './QRCode.module.css'
 
 export default function QRCode() {
   return (

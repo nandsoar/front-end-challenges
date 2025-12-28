@@ -1,11 +1,11 @@
 import './App.css'
-import QRCode from './components/QRCode'
+import BlogPreview from './challenges/blog-preview/BlogPreview'
 
 function App() {
   return (
     <div className="app">
       <main>
-        <QRCode />
+        <BlogPreview />
       </main>
     </div>
   )
