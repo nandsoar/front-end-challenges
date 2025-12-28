@@ -1,6 +1,6 @@
-import styles from '@/styles/QR-Code.module.css'
+import styles from '@/styles/QRCode.module.css'
 
-export default function C25() {
+export default function QRCode() {
   return (
     <div className={styles.root}>
       <article>
