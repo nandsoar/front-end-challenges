@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.root {
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+
+  --space-std: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+
+  --font-md: 0.9375rem;
+  --font-lg: 1.375rem;
+
+  --line-lg: 140%;
+  --line-md: 120%;
+
+  --letter-sm: 0.2px;
+
+  --radius: 20px;
+
+  font-family: Outfit, serif;
+  background: var(--slate-300);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  /* Min 320px, scales with viewport, max 1200px */
+  /*margin-inline: auto;*/
+}
+
+.root article {
+  border-radius: var(--radius);
+  width: min(320px, 100%);
+  padding: var(--space-std) var(--space-std) var(--space-lg);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.root img {
+  width: min(288px, 100%);
+}
+
+.about {
+  text-align: center;
+  gap: var(--space-std);
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.about p {
+  color: var(--slate-500);
+  font-size: var(--font-md);
+  line-height: var(--line-lg);
+  letter-spacing: var(--letter-sm);
+}
+
+.about h1 {
+  color: var(--slate-900);
+  font-size: var(--font-lg);
+  line-height: var(--line-md);
+}
