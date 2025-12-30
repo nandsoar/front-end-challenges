@@ -26,8 +26,6 @@
   justify-content: center;
   min-height: 100vh;
   min-width: 100vw;
-  /* Min 320px, scales with viewport, max 1200px */
-  /*margin-inline: auto;*/
 }
 
 .root article {

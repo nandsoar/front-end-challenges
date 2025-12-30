@@ -1,4 +1,6 @@
 import styles from './BlogPreview.module.css'
+import blogImage from '@/assets/blog-image.svg'
+import userPic from '@/assets/userpic.svg'
 
 export default function BlogPreview() {
   const badge = 'Learning'
@@ -11,7 +13,7 @@ export default function BlogPreview() {
   return (
     <div className={styles.root}>
       <article>
-        <img src="blog-image.svg" className={styles.cardArt} alt="article art" />
+        <img src={blogImage} className={styles.cardArt} alt="article art" />
         <div className={styles.content}>
           <div className={styles.badge}>{badge}</div>
           <p className={styles.publishDate}>{publishDate}</p>
@@ -19,7 +21,7 @@ export default function BlogPreview() {
           <p className={styles.description}>{description}</p>
         </div>
         <div className={styles.author}>
-          <img src="userpic.svg" alt="author" />
+          <img src={userPic} alt="author" />
           <p>{author}</p>
         </div>
       </article>
