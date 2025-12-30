@@ -80,7 +80,7 @@
 .author {
   line-height: var(--line-md);
   img {
-    width: 32px;
+    width: min(32px, 100%);
     height: 32px;
   }
   font-weight: 800;
